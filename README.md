@@ -1,1 +1,1 @@
-# Lab-Mannual SJIT
+# AI and ML Lab-Mannual SJIT
