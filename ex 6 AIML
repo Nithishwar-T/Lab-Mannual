@@ -3,8 +3,7 @@ pip install network
 
 Program
 from pgmpy.models import BayesianNetwork 
-from pgmpy.factors.discrete 
-import TabularCPD 
+from pgmpy.factors.discrete import TabularCPD 
 import networkx as nx
 import pylab as plt
 model = BayesianNetwork([('Guest', 'Host'), ('Price', 'Host')]) # Defining the CPDs:
@@ -40,10 +39,10 @@ Output:
 
 Program
 import network as nx
-inport matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 G=nx.DiGraph()
 G.add_edges_from(['Guest','Host'),('Price','host')])
 pos=nx.spring_layout(G)
-nx.draw(G=pos=pos,with_lablels=True,arrows=True,arrowstyle='_>')
+nx.draw(G,pos=pos,with_lablels=True,arrows=True,arrowstyle='_>')
 plt.savefig('model.png')
 plt.show()
